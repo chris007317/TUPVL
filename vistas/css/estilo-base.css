@@ -1,0 +1,773 @@
+:root{
+	--rosa: #FF2D4D;
+	--rosa-oscuro: #F00C2F;
+	--gris: #BDB9BA;
+	--azul: #2F90C5;
+	--rojo: #CF1A15;
+	--verde: #3F9A39;
+	--jade: #73C9AD;
+	--amarillo: #E9D70A;
+	--violeta: #8B27DD;
+	--oscuro: #4A4848;
+	--negro: #000000;
+	--blanco: #FFFFFF;
+	--plomo: #686868;
+	--vino: #BA124C;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center-item{
+	align-items: center;
+}
+
+.center-text{
+	text-align: center;
+}
+
+/*----------  display flex  ----------*/
+.ds-flex{
+	display: flex;
+}
+
+.ds-flex-between{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ds-flex-around{
+	display: flex;
+	justify-content: space-around;
+}
+
+.ds-flex-end{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ds-flex-start{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.ds-flex-center{
+	display: flex;
+	justify-content: center;
+}
+
+/*----------  margenes  ----------*/
+.mr-auto{
+	margin: auto;
+}
+
+.mr-5{
+	margin: 5px;
+}
+
+.mr-4{
+	margin: 4px;
+}
+.mr-6{
+	margin: 6px;
+}
+
+.mr-10{
+	margin: 10px;
+}
+
+.mr-15{
+	margin: 15px;
+}
+.mr-20{
+	margin: 20px;
+}
+
+.mr-top-4{
+	margin-top: 4px;
+}
+
+.mr-top-5{
+	margin-top: 5px;
+}
+
+.mr-top-6{
+	margin-top: 6px;
+}
+
+.mr-top-10{
+	margin-top: 10px;
+}
+
+.mr-top-15{
+	margin-top: 15px;
+}
+
+.mr-top-20{
+	margin-top: 20px;
+}
+
+.mr-bottom-4{
+	margin-bottom: 4px;
+}
+
+.mr-bottom-5{
+	margin-bottom: 5px;
+}
+
+.mr-bottom-6{
+	margin-bottom: 6px;
+}
+
+.mr-bottom-10{
+	margin-bottom: 10px;
+}
+
+.mr-bottom-15{
+	margin-bottom: 15px;
+}
+
+.mr-bottom-20{
+	margin-bottom: 20px;
+}
+
+.mr-bottom-30{
+	margin-bottom: 30px;
+}
+
+.mr-bottom-40{
+	margin-bottom: 40px;
+}
+
+.mr-left-4{
+	margin-left: 4px;
+}
+
+.mr-left-5{
+	margin-left: 5px;
+}
+
+.mr-left-6{
+	margin-left: 6px;
+}
+
+.mr-left-10{
+	margin-left: 10px;
+}
+
+.mr-left-15{
+	margin-left: 15px;
+}
+
+.mr-left-20{
+	margin-left: 20px;
+}
+.mr-right-4{
+	margin-right: 4px;
+}
+
+.mr-right-5{
+	margin-right: 5px;
+}
+
+.mr-right-6{
+	margin-right: 6px;
+}
+
+.mr-right-10{
+	margin-right: 10px;
+}
+
+.mr-right-15{
+	margin-right: 15px;
+}
+
+.mr-right-20{
+	margin-right: 20px;
+}
+
+/*----------  padding  ----------*/
+.pd-auto{
+	padding: auto;
+}
+
+.pd-5{
+	padding: 5px;
+}
+
+.pd-4{
+	padding: 4px;
+}
+.pd-6{
+	padding: 6px;
+}
+
+.pd-10{
+	padding: 10px;
+}
+
+.pd-15{
+	padding: 15px;
+}
+.pd-20{
+	padding: 20px;
+}
+
+.pd-top-4{
+	padding-top: 4px;
+}
+
+.pd-top-5{
+	padding-top: 5px;
+}
+
+
+.pd-top-6{
+	padding-top: 6px;
+}
+
+
+.pd-top-10{
+	padding-top: 10px;
+}
+
+
+.pd-top-15{
+	padding-top: 15px;
+}
+
+
+.pd-top-20{
+	padding-top: 20px;
+}
+
+.pd-top-30{
+	padding-top: 30px;
+}
+
+.pd-top-40{
+	padding-top: 40px;
+}
+
+.pd-bottom-4{
+	padding-bottom:4px; 
+}
+
+.pd-bottom-5{
+	padding-bottom:5px; 
+}
+
+.pd-bottom-6{
+	padding-bottom:6px; 
+}
+
+.pd-bottom-10{
+	padding-bottom:10px; 
+}
+
+.pd-bottom-15{
+	padding-bottom:15px; 
+}
+
+.pd-bottom-20{
+	padding-bottom:20px; 
+}
+
+.pd-bottom-30{
+	padding-bottom:30px; 
+}
+
+.pd-bottom-40{
+	padding-bottom:40px; 
+}
+
+.pd-left-4{
+	padding-left: 4px; 
+}
+
+.pd-left-5{
+	padding-left:5px; 
+}
+
+.pd-left-6{
+	padding-left:6px; 
+}
+
+.pd-left-10{
+	padding-left:10px; 
+}
+
+.pd-left-15{
+	padding-left:15px; 
+}
+
+.pd-left-20{
+	padding-left:20px; 
+}
+
+.pd-right-4{
+	padding-right: 4px; 
+}
+
+.pd-right-5{
+	padding-right:5px; 
+}
+
+.pd-right-6{
+	padding-right:6px; 
+}
+
+.pd-right-10{
+	padding-right:10px; 
+}
+
+.pd-right-15{
+	padding-right:15px; 
+}
+
+.pd-right-20{
+	padding-right:20px; 
+}
+
+/*----------  botones  ----------*/
+.btn:hover{
+	cursor: pointer;
+}
+
+.btn{
+	font-size: 15px;
+	padding: 8px;
+	border-radius: 5px;
+	border: none;
+}
+
+.btn-rosa{
+	background: var(--rosa);
+	color: var(--blanco);
+}
+
+.btn-largo{
+	width: 100%;
+
+}
+
+/*----------  ancho  ----------*/
+.ancho-10{
+	width: 10%;
+}
+
+.ancho-20{
+	width: 20%;
+}
+.ancho-30{
+	width: 30%;
+}
+.ancho-40{
+	width: 40%;
+}
+.ancho-50{
+	width: 50%;
+}
+.ancho-60{
+	width: 60%;
+}
+.ancho-70{
+	width: 70%;
+}
+.ancho-80{
+	width: 80%;
+}
+.ancho-90{
+	width: 90%;
+}
+
+.ancho-100{
+	width: 100%;
+}
+
+.alto-40{
+	height: 40px;
+}
+
+.alto-50{
+	height: 50px;
+}
+
+.alto-60{
+	height: 60px;
+}
+
+/*----------  bordes  ----------*/
+.no-border{
+	border-style: none;
+}
+
+.border-rosa{
+	border: 1px solid var(--rosa);
+}
+
+.border-rd-3{
+	border-radius: 3px;
+}
+
+.border-rd-5{
+	border-radius: 5px;
+}
+
+.border-rd-10{
+	border-radius: 10px;
+}
+
+.border-rd-20{
+	border-radius: 20px;
+}
+
+.border-rd-25{
+	border-radius: 25px;
+}
+.border-rd-50{
+	border-radius: 50px;
+}
+
+.border-plomo-1{
+	border: 1px solid rgba(104, 104, 104, 0.2);
+}
+
+.border-plomo-2{
+	border: 2px solid rgba(104, 104, 104, 0.2);
+}
+
+.border-plomo-3{
+	border: 3px solid rgba(104, 104, 104, 0.2);
+}
+
+.border-bottom-plomo{
+	border-bottom: 1px solid rgba(104, 104, 104, 0.2);
+}
+
+.border-top-plomo{
+	border-top: 1px solid rgba(104, 104, 104, 0.2);
+}
+
+.border-left-plomo{
+	border-left: 1px solid rgba(104, 104, 104, 0.2);
+}
+
+.border-right-plomo{
+	border-right: 1px solid rgba(104, 104, 104, 0.2);
+}
+
+/*----------  columas  ----------*/
+
+/*----------  div titulos  ----------*/
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-plomo{
+	color: var(--plomo);
+}
+
+.font-bold{
+	font-weight: bold;
+}
+
+/*----------  listas  ----------*/
+.lista{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+/*----------  form contacto  ----------*/
+.contacto-form{
+	width: 100%;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.input-contacto, .textarea-contacto{
+	width: 100%;
+	padding-left: 10px;
+	outline: 0;
+	border: 1px solid var(--gris);
+}
+
+.input-contacto{
+	height: 35px;
+}
+
+.textarea-contacto{
+	height: 80px;
+}
+
+.input-contacto:hover, .input-contacto:focus, 
+.textarea-contacto:hover, .textarea-contacto:focus{
+	border: 1px solid var(--rosa);
+}
+
+.btn-contacto{
+	border-style: none;
+	background: var(--rosa);
+	width: 60%;
+	height: 40px;
+	border-radius: 32px;
+	color: var(--blanco);
+}
+
+.btn-contacto:hover{
+	background: var(--blanco);
+	border: 2px solid var(--rosa);
+	color: var(--rosa);
+	cursor: pointer;
+}
+
+/*----------  colores  ----------*/
+
+.bg-plomo{
+	background: rgba(104, 104, 104, 0.2); 
+}
+
+.bg-rosa{
+	background: var(--rosa);
+}
+
+/*----------  Botones <a>  ----------*/
+.link-a{
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.link-a:hover{
+	cursor: pointer;
+	color: var(--plomo);
+}
+
+/*----------  Color texto  ----------*/
+.text-blanco{
+	color: #FFFFFF;	
+}
+
+.text-gris{
+	color: var(--gris);
+}
+
+/*----------  Inputs en grupo para login  ----------*/
+.header-login{
+	width: 80%;
+	height: auto;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.body-login{
+	width: 100%;
+	height: auto;
+	box-shadow: 0 0 5px #666;
+	padding: 25px 15px 25px 15px;
+	align-items: center;
+	text-align: center;
+}
+
+.input-grupo-login{
+	width: 100%;
+	margin-top: 15px;
+	height: 35px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid var(--gris);
+	border-radius: 5px;
+	
+}
+
+.input-grupo-login input{
+	width: 85%;
+	border-style: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	color: var(--plomo);
+}
+
+.text-icono{
+	width: 15%;
+	height: 35px;
+	font-size: 20px;
+	margin-top: 7px;
+	color: var(--plomo);
+}
+
+.input-grupo-login input:hover, .input-grupo-login input:focus{
+	border: none;
+	outline: none;
+}
+
+
+.btn-login{
+	background: var(--rosa);
+	border: none;
+	width: 100%;
+	height: 35px;
+	color: var(--blanco);
+}
+
+.btn-login:hover, .btn-login:active{
+	background: var(--rosa-oscuro);
+	cursor: pointer;
+}
+
+/*----------  formularios  ----------*/
+
+.input-grupo{
+	width: 100%;
+	height: auto;
+	padding-top: 15px;
+}
+
+.input-grupo label, .input-grupo input, .input-grupo select{
+	width: 100%;
+	color: var(--plomo);
+
+}
+
+.input-grupo input, .input-grupo select{
+	border: 1px solid var(--gris);
+	height: 35px;
+	border-radius: 5px;
+}
+
+.input-grupo input:focus, .input-grupo select:focus{
+	border-color: var(--rosa-oscuro);
+	outline: none;
+}
+.input-grupo input:hover, .input-grupo input:active, .input-grupo select:hover, .input-grupo select:active{
+	border-color: var(--rosa-oscuro);
+	outline: none;
+}
+.input-grupo input[type=file]{
+	border:none;
+}
+.input-grupo input[type=file]:hover{
+	cursor: pointer;
+}
+/*----------  card estilos  ----------*/
+
+.card{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 3px #666;	
+}
+
+.card-titulo{
+	text-align: center;
+	width: 100%;
+}
+
+
+input[type="checkbox"]{
+	display: none;
+}
+
+input[type="checkbox"] + label{
+	cursor: pointer;
+}
+
+.check{
+	width: 100%;
+}
+
+.check label{
+	color: var(--plomo);
+}
+
+.check label:before{
+	content: '';
+	background: transparent;
+	border: 2px solid var(--gris);
+	border-radius: 5px;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	text-align: center;
+	vertical-align: middle;
+
+}
+.check input[type="checkbox"]:checked + label:before{
+    content: "✓";
+    font-size: 20px;
+    border-color: var(--rosa);
+    color: var(--rosa);
+}
+
+.modal_wrap{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje_modal{
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.mensaje_modal h3{
+    text-align: center;
+    font-family: 'Ubuntu';
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.mensaje_modal h3:after{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #C5C5C5;
+	margin: 10px 0px 15px;
+}
+
+.mensaje_modal p{
+    font-size: 16px;
+    color: #606060;
+}
+
+
+#btnClose{
+    display: inline-block;
+	padding: 3px 10px;
+	margin-top: 10px;
+
+	background: #E25151;
+	color: #fff;
+	border: 2px solid #B14141;
+	cursor: pointer;
+
+	float: right;
+}

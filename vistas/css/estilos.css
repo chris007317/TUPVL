@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;1,300&family=Kanit:wght@300;400&display=swap');
+*{
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}	
+
+body{
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+	margin: 0;
+	padding: 0;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	color: #686868;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	color: var(--plomo);
+}
+
+.header{
+	width: 100%;
+	height: auto;
+}
+
+
+.contenedor1{
+	width: 100%;
+}
+
+.nav-content{
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logo{
+	width: 150px;
+	height: 50px;
+}
+
+.logo-nav{
+	width: 34%;
+}
+
+.nenu{
+	width: 60%;
+    padding-top: 4px;
+}
+
+
+/*----------  estilo menu header ----------*/
+
+.no-visible{
+	display: none;
+}
+
+
+.menu-list{
+	margin: 0;
+	padding: 0;	
+	list-style: none;
+	display: flex;
+}
+
+.menu-item{
+	padding: 8px 5px;
+	font-family: 'Kanit', sans-serif;
+	font-size: 12px;
+}
+
+.menu-link{
+	color: var(--plomo);
+}
+
+.activo, .menu-link:hover{
+	color: var(--rosa-oscuro);
+}
+
+
+.header-mover{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background: var(--blanco); 
+	transition: all 0.4s;
+	padding: 0;
+}
+
+
+
+.social-l{
+	font-size: 18px;
+    display: inline-block;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+
+.social-l{
+    color: var(--blanco);
+    background: var(--rosa);
+}
+
+.social-link:hover, .social-l:hover{
+	background: var(--blanco);
+}
+
+.social-l:hover{
+	color: var(--rosa);
+}
+
+
+
+@media (min-width: 480px){
+	.nav{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo-nav{
+		width: 30%;
+	}
+
+	.nenu{
+		width: 50%;
+	}
+
+	.menu-item{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 780px){
+
+	.nenu{
+		justify-content: flex-end;
+	}
+
+	.icon-section{
+		display: flex;
+	}
+
+	.header-mover .nenu{
+		animation: fade 1s;
+	}
+
+
+
+	.logo-nav{
+		width: 20%;
+	}
+
+	.nenu{
+		width: 80%;
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 10px;
+	}
+
+
+	.nenu{
+		background: none;
+	}
+
+
+	.header-mover{
+		padding-top: 0;
+	}
+	.menu-item{
+			padding: 8px 15px;
+	}
+}
+
+@media (min-width: 1024px){
+
+	.contenedor1{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.header{
+		background:  rgba(0, 0, 0, 0.2);
+	}
+
+}
+
+
+/*----------  Estilos inscripcion  ----------*/
+
+.titulo-descripcion{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.titulo-descripcion h2{
+	color: var(--rosa);
+}
+.titulo-descripcion p{
+	margin: 10px 0;
+	text-align: justify;
+}
+
+.card-titulo h3{
+	color: var(--rosa);
+}
+
+.contenedor{
+	width: 100%;
+}
+
+.form-inscripcion{
+	width: 90%;
+}
+
+@media (min-width: 480px){
+	.form-inscripcion, .titulo-descripcion{
+		width: 75%;
+	}	
+}
+
+@media (min-width: 780px){
+	.card{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.input-grupo{
+		width: 48%;
+	}
+}
+
+@media (min-width: 920px){
+	.inscripcion-cuerpo{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.card{
+		width: 48%;
+		display: block;
+	}
+
+	.input-grupo{
+		width: 100%;
+	}
+	
+	.btn-inscripcion{
+		width: 200px;
+		font-size: 22px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.card-titulo h3{
+		font-size: 22px;	
+	}	
+}
+
+@media (min-width: 1024px){
+	.titulo-descripcion h2{ 
+		font-size: 40px;
+	}
+	.titulo-descripcion p{
+		font-size: 20px;
+	}
+
+	.card-titulo h3{
+		font-size: 25px;	
+	}	
+}	

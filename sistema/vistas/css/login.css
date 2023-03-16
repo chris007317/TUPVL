@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;1,300&family=Kanit:wght@300;400&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}	
+
+body{
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+	margin: 0;
+	padding: 0;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	color: #686868;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	color: var(--plomo);
+}
+
+
+.contenedor{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.cont-login{
+	height: auto;
+	padding-top: 100px;
+}
+
+.login{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.link-recuperar{
+	color: var(--rosa);
+}
+
+.link-recuperar:hover, .link-recuperar:active{
+	color: var(--plomo);
+}
+
+.enlase{
+	width: 100%;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media (min-width: 480px){
+	.login{
+		width: 75%;
+	}
+}
+
+@media (min-width: 620px){
+	.login{
+		width: 65%;
+	}
+}
+
+@media (min-width: 880px){
+	.login{
+		width: 50%;
+	}
+}
+
+@media (min-width: 1024px){
+	.header{
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		background:  rgba(0, 0, 0, 0.2);
+	}
+	.nav-login{
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		background: none;
+	}
+
+	.cont-login{
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.login-banner{
+		width: 70%;
+		height: 100vh;
+		background: url('../img/login/fondo.jpg') ;
+		background-size: 100% 100%;
+		box-shadow: 0 0 10px #666;
+	}
+
+	.login{
+		padding-top: 22vh;
+		width: 26%;
+	}
+}
+
+@media (min-width: 1200px){
+	.login-banner{
+		width: 75%
+	}
+
+	.login{
+		width: 22%;
+	}
+}

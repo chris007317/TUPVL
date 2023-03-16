@@ -1,0 +1,104 @@
+:root{
+	--rosa: #FF2D4D;
+	--rosa-oscuro: #F00C2F;
+	--gris: #BDB9BA;
+	--azul: #5EC196;
+	--azul-claro: #45B1EC;
+	--rojo: #CF1A15;
+	--verde: #5AB18B;
+	--verde-oscuro: #51A17E;
+	--jade: #69BBA0;
+	--jade-oscuro: #4C9F84;
+	--amarillo: #FFD964;
+	--amarillo-oscuro: #F9D93B;
+	--violeta: #8B27DD;
+	--oscuro: #4A4848;
+	--negro: #000000;
+	--blanco: #FFFFFF;
+	--plomo: #DADADA;
+	--vino: #BA124C;
+	--celeste-claro: #93CCE1;
+	--naranja: #F56E3B;
+	--naranja-oscuro: #F74536;
+
+}
+.bg-plomo{
+	background: var(--plomo);
+}
+.bg-celeste-claro{
+	background: var(--celeste-claro);
+}
+
+.btn-amarillo{
+	background: var(--amarillo);
+	color: white;
+}
+
+.btn-azul{
+	background: var(--azul);
+	color: white;
+}
+
+.btn-jade{
+	background: var(--jade);
+	color: white;
+}
+
+.btn-rosa{
+	background: var(--rosa);
+	color: white;
+}
+
+.btn-naranja{
+	background: var(--naranja);
+	color: white;
+}
+
+.btn-verde{
+	background: var(--verde);
+	color: white;
+}
+
+
+.btn-azul:hover{
+	background: var(--azul-claro);
+	color: white;
+}
+
+
+.btn-amarillo:hover{
+	background: var(--amarillo-oscuro);
+	color: white;
+}
+
+.btn-jade:hover{
+	background: var(--jade-oscuro);
+	color: white;
+}
+
+.btn-rosa:hover{
+	background: var(--rosa-oscuro);
+	color: white;
+}
+
+.btn-naranja:hover{
+	background: var(--naranja-oscuro);
+	color: white;
+}
+
+.btn-verde:hover{
+	background: var(--verde-oscuro);
+	color: white;
+}
+
+.bg-azul{
+	background: linear-gradient(to left, #2F90C5, #45B1EC);
+}
+
+.w-40{
+	width: 40%;
+}
+
+.w-60{
+	width: 60%;
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="651" height="178" viewBox="0 0 651 178">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff2d4d;
+      }
+
+      .cls-2 {
+        font-size: 108.333px;
+        fill: #fff;
+        font-family: Forte;
+      }
+
+      .cls-3 {
+        font-size: 133.333px;
+        fill: #686868;
+        font-family: "Century751 No2 BT";
+        font-weight: 700;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <circle id="logo" class="cls-1" cx="87.75" cy="87.75" r="87.75"/>
+  <text id="V" class="cls-2" transform="translate(56.191 124.954) scale(1.026)">V</text>
+  <text id="TuPVL" class="cls-3" x="207.75" y="137.75">TuPVL</text>
+</svg>

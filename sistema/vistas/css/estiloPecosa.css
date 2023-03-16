@@ -1,0 +1,168 @@
+@import url('../fonts/BrixSansRegular.css');
+@import url('../fonts/BrixSansBlack.css');
+
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p, label, span, table{
+	font-family: 'BrixSansRegular';
+	font-size: 9pt;
+}
+
+.h1{
+	font-family: 'BrixSansBlack';
+	font-size: 18pt;
+}
+
+.h2{
+	font-family: 'BrixSansBlack';
+	font-size: 16pt;
+}
+.h3{
+	font-family: 'BrixSansBlack';
+	font-size: 12pt;
+	text-align: center;
+}
+#page_pdf{
+	width: 95%;
+	margin: 15px auto 10px auto;
+}
+
+.img-muni{
+	width: 100px;
+	height: 80px;
+}
+
+.img-cont{
+	width: 100%;
+	text-align: center;
+
+}
+
+#factura_head{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.logo_factura{
+	width: 20%;
+}
+.info_empresa{
+	width: 45%;
+}
+.info_factura{
+	width: 35%;
+}
+.info_cliente{
+	width: 100%;
+}
+
+
+
+.textright{
+	text-align: right;
+}
+.textleft{
+	text-align: left;
+}
+.textcenter{
+	text-align: center;
+}
+
+
+.nota{
+	font-size: 8pt;
+}
+.label_gracias{
+	font-family: verdana;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-top: 20px;
+}
+.anulada{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.ml5{
+	padding-left: 5px;
+}
+
+
+
+.tbFecha{
+	width: 25%;
+	text-align: center;
+	font-size: 15px;
+	height: 24px;
+	border: 1px solid;
+}
+
+
+.tbpecosa{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.tbpecosa th{
+	background: #ededed;
+	height: 30px;
+	font-size: 16px;
+}
+
+
+.linea{
+	width: 80%;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.tbpecosa tfoot{
+	font-family: 'BrixSansBlack';
+} 
+
+.tbPadron{
+	width: 100%;
+	margin-top: 15px;
+	border-collapse: collapse;
+	page-break-before:auto;
+}
+
+.tbPadron th{
+	background: #ededed;
+	height: 30px;
+	font-size: 16px;
+}
+
+.tbPadron tbody tr td{
+	height: 60px;
+}
+
+.tbPadron tbody tr td p{
+	margin-top: 35px;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.cuadro{
+	width: 35px; 
+	height: 20px; 
+	border: 1px solid #000; 
+	display: inline-block;
+}
+
+.cuadro-linea{
+	width: 90%; 
+	display: inline-block;
+}
+
+.linea-cuad{
+	margin-top: 20px; 
+	
+}

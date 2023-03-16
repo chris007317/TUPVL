@@ -1,0 +1,38 @@
+:root{
+	--rosa: #FF2D4D;
+	--rosa-oscuro: #F00C2F;
+	--gris: #BDB9BA;
+	--azul: #2F90C5;
+	--rojo: #CF1A15;
+	--verde: #3F9A39;
+	--jade: #73C9AD;
+	--amarillo: #E9D70A;
+	--violeta: #8B27DD;
+	--oscuro: #4A4848;
+	--negro: #000000;
+	--blanco: #FFFFFF;
+	--plomo: #686868;
+	--vino: #BA124C;
+	--verde-suave: #1FC994;
+	--verde-efecto: #0BB37F;
+}
+
+.btn-verde{
+	background: var(--verde-suave);
+	color: var(--blanco);
+}
+
+.btn-verde:hover{
+	background: var(--verde-efecto);	
+	color: var(--blanco);
+}
+
+.btn-rosa{
+	background: var(--rosa);
+	color: var(--blanco);
+}
+
+.btn-rosa:hover{
+	background: var(--rosa-oscuro);	
+	color: var(--blanco);
+}

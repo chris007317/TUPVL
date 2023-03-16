@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;1,300&family=Kanit:wght@300;400&display=swap');
+
+.header{
+	width: 100%;
+	height: auto;
+}
+
+
+.contenedor1{
+	width: 100%;
+}
+
+.nav-content{
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logo{
+	width: 150px;
+	height: 50px;
+}
+
+.logo-nav{
+	width: 34%;
+}
+
+.nenu{
+	width: 60%;
+    padding-top: 4px;
+}
+
+
+/*----------  estilo menu header ----------*/
+
+.no-visible{
+	display: none;
+}
+
+
+.menu-list{
+	margin: 0;
+	padding: 0;	
+	list-style: none;
+	display: flex;
+}
+
+.menu-item{
+	padding: 8px 5px;
+	font-family: 'Kanit', sans-serif;
+	font-size: 12px;
+}
+
+.menu-link{
+	color: var(--plomo);
+}
+
+.activo, .menu-link:hover{
+	color: var(--rosa-oscuro);
+}
+
+
+.header-mover{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background: var(--blanco); 
+	transition: all 0.4s;
+	padding: 0;
+}
+
+
+
+.social-l{
+	font-size: 18px;
+    display: inline-block;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+
+.social-l{
+    color: var(--blanco);
+    background: var(--rosa);
+}
+
+.social-link:hover, .social-l:hover{
+	background: var(--blanco);
+}
+
+.social-l:hover{
+	color: var(--rosa);
+}
+
+
+
+@media (min-width: 480px){
+	.nav{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo-nav{
+		width: 30%;
+	}
+
+	.nenu{
+		width: 50%;
+	}
+
+	.menu-item{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 780px){
+
+	.nenu{
+		justify-content: flex-end;
+	}
+
+	.icon-section{
+		display: flex;
+	}
+
+	.header-mover .nenu{
+		animation: fade 1s;
+	}
+
+
+
+	.logo-nav{
+		width: 20%;
+	}
+
+	.nenu{
+		width: 80%;
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 10px;
+	}
+
+
+	.nenu{
+		background: none;
+	}
+
+
+	.header-mover{
+		padding-top: 0;
+	}
+	.menu-item{
+			padding: 8px 15px;
+	}
+}
+
+@media (min-width: 1024px){
+
+	.contenedor1{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media (min-width: 1200px){
+	
+}
